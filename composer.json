@@ -1,0 +1,20 @@
+{
+  "name": "aivec/wcex-cptm-cli",
+  "description": "CLI for deploying new ZIP files and updating information on a server hosting the WCEX Commercial Plugin/Theme Manager plugin",
+  "type": "library",
+  "license": "GPL-2.0-only",
+  "require": {
+    "guzzlehttp/guzzle": "^7.0",
+    "vanilla/garden-cli": "^2.2",
+    "firebase/php-jwt": "^5.2"
+  },
+  "authors": [
+    {
+      "name": "Evan Shaw",
+      "email": "evandanielshaw@gmail.com"
+    }
+  ],
+  "bin": [
+    "bin/wcex-cptm-cli"
+  ]
+}
